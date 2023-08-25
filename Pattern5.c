@@ -24,3 +24,11 @@ void main()
 	}
 	getch();
 }
+
+OUTPUT-
+Enter the number 5
+*****
+*ABC*
+*DEF*
+*GHI*
+*****
