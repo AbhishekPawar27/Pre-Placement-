@@ -22,3 +22,11 @@ void main()
 	}
 	getch();
 }
+
+OUTPUT-
+Enter the number 5
+aaaaa
+BBBBB
+ccccc
+DDDDD
+eeeee
