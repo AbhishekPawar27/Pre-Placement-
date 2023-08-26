@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char s[20],cpy[20];
+	int i,m,n;
+	printf("enter the string");
+	gets(s);
+	printf("Enter position to start a substring");
+	scanf("%d",&m);
+	printf("Enter position to end a substring");
+	scanf("%d",&n);
+	int j=0;
+	for(i=m;i<n;i++)
+	{
+		cpy[j]=s[i];
+		j++;
+	}
+	printf("%s",cpy);
+}
+
+
